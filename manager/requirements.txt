@@ -1,0 +1,6 @@
+# Dependencias do CaptureFruitHoHoHub Control Hub (aplicacao Windows)
+PySide6-Essentials==6.8.1
+# PySide6==6.8.1          # alternativa completa (inclui QtCharts, Qt3D, etc.)
+
+# Apenas para gerar o .exe:
+pyinstaller==6.11.1

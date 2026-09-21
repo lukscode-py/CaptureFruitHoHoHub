@@ -1,0 +1,36 @@
+# ---- Segredos ----
+.env
+selfbot/.env
+selfbot/config.json
+manager/data/
+manager/logs/
+
+# ---- Node ----
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json.bak
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# ---- Builds ----
+build/
+dist/
+*.spec.bak
+manager/build/
+manager/dist/
+
+# ---- Logs / runtime ----
+selfbot/logs/
+*.log
+
+# ---- Sistema ----
+.DS_Store
+Thumbs.db
+desktop.ini
