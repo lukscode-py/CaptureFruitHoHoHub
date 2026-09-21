@@ -1,0 +1,23 @@
+{
+  "name": "capture-fruit-hoho-hub-selfbot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Self bot simples para fins de estudo, construído com discord.js-selfbot-v13 e gerenciado pelo Control Hub (.exe).",
+  "main": "index.js",
+  "engines": {
+    "node": ">=16.6.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js && node --check src/config.js && node --check src/logger.js && node --check src/commands.js && node --check src/client.js"
+  },
+  "keywords": [
+    "discord",
+    "selfbot",
+    "discord.js-selfbot-v13"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "discord.js-selfbot-v13": "^3.7.1"
+  }
+}
